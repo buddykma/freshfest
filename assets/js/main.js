@@ -183,7 +183,7 @@ function initMap() {
 function initMarkers(map) {
 
     markers.forEach(function (item) {
-        var contentString = '<div style="color: black; max-width: 80%; max-height: 60%; font-family: Trebuchet MS,serif; text-align: left"><div style="font-size: 22px;border-bottom: 1px solid gray; margin-bottom: 5px"><b>' + item.title + '</b></div><div>' + item.content + '</div></div>';
+        var contentString = '<div style="color: black; max-width: 80%; max-height: 60%; font-family: Trebuchet MS,serif; text-align: left"><div style="font-size: 22px;border-bottom: 1px solid gray; margin-bottom: 5px"><b>' + item.title + '</b></div><div style="font-size: 16px; text-align: left; text-wrap: normal; font-family: Trebuchet MS, sans-serif">' + item.content + '</div></div>';
 
         var infowindow = new google.maps.InfoWindow({
             content: contentString
