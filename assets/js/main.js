@@ -124,7 +124,7 @@ function markerClick() {
 }
 
 $(window).load(function () {
-    $('.logo').fadeIn(1000, function () {
+    $('.logo').fadeIn(6000, function () {
         $(this).css({
             '-webkit-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
             '-moz-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
@@ -139,7 +139,7 @@ $(window).load(function () {
                 'bottom': '7%'
             });
             $('.container').fadeIn(3000)
-        }, 1000)
+        }, 10000)
     });
 });
 
