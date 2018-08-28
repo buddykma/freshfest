@@ -155,3 +155,7 @@ a.button2:hover {
     display: table;
     clear: both;
 }
+
+input {
+    display: none;
+}
