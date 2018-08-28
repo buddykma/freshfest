@@ -99,6 +99,8 @@ html {
     height: 150px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 #title .container .buttons-handler .row .column .holder img {
