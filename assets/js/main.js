@@ -246,13 +246,13 @@ function buttonClick(val) {
 }
 
 $(window).load(function () {
-    $('.logo').fadeIn(6000, function () {
+    $('.logo').fadeIn(4000, function () {
         $(this).css({
-            '-webkit-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
-            '-moz-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
-            '-ms-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
-            '-o-transition': 'all 10s cubic-bezier(1,.03,.37,.89)',
-            'transition': 'all 10s cubic-bezier(1,.03,.37,.89)'
+            '-webkit-transition': 'all 6s cubic-bezier(1,.03,.37,.89)',
+            '-moz-transition': 'all 6s cubic-bezier(1,.03,.37,.89)',
+            '-ms-transition': 'all 6s cubic-bezier(1,.03,.37,.89)',
+            '-o-transition': 'all 6s cubic-bezier(1,.03,.37,.89)',
+            'transition': 'all 6s cubic-bezier(1,.03,.37,.89)'
         }).addClass('animate');
         setTimeout(function () {
             $('.logo').hide(0);
@@ -260,8 +260,8 @@ $(window).load(function () {
                 'top': '0',
                 'bottom': '7%'
             });
-            $('.container').fadeIn(3000)
-        }, 10000)
+            $('.container').fadeIn(2000)
+        }, 6000)
     });
 });
 
